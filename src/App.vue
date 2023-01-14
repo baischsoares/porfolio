@@ -47,14 +47,17 @@ img{
   display: block;
 }
 .container{
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 .main{
   display: grid;
   grid-template-columns: 300px auto;
-  gap: 30px;
-  margin-top: 20px;
+  gap: 40px;
+  margin-top: 60px;
+}
+.id{
+  margin-bottom: 50px;
 }
 .menu-lateral{
   display: block;
@@ -72,6 +75,15 @@ img{
 .router-link-active{
   background: #456086;
   color: #fff
+}
+
+@media(max-width: 900px){
+  .main{
+    display: block;
+  }
+  nav{
+    margin-bottom: 40px;
+  }
 }
 
 </style>

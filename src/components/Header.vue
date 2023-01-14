@@ -5,14 +5,14 @@
       <img src="../assets/profile.jpg" alt="">
       <div>
         <h1>Luis Augusto Baisch Soares</h1>
-        <p>Estudante de Análise e Desenvolvimento de Sistemas, com foco em Front-End</p>
+        <p>Desenvolvedor Front-End - Vue.js</p>
       </div>
     </div>
     <div class="redes">
       <ul>
-        <li><a href=""><img class="logo" src="../assets/github.png" alt=""></a></li>
-        <li><a href=""><img class="logo" src="../assets/linkedin.png" alt=""></a></li>
-        <li><a href=""><img class="logo" src="../assets/whatsapp.png" alt=""></a></li>
+        <li><a href="https://github.com/baischsoares"><img class="logo" src="../assets/github.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/luis-augusto-baisch-soares-0b6783156/"><img class="logo" src="../assets/linkedin.png" alt=""></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5541997863382"><img class="logo" src="../assets/whatsapp.png" alt=""></a></li>
       </ul>
     </div>
   </header>
@@ -36,10 +36,10 @@ export default {
 }
 header{
   padding: 15px 10px;
-  
 }
 header, .infos, ul{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
@@ -54,4 +54,8 @@ header, .infos, ul{
 .logo:hover{
   transform: scale(1.1);
 }
+@media(max-width: 800px){
+ 
+}
+
 </style>
