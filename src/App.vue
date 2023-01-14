@@ -39,6 +39,9 @@ body, p, h1, h2, h3, ul{
   padding: 0px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif
 }
+h1, h2, p, a{
+  word-break: break-all;
+}
 ul{
   list-style: none;
 }

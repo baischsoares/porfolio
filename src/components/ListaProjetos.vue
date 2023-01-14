@@ -45,6 +45,7 @@ p{
 
 ul{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 15px;
 }
@@ -62,6 +63,9 @@ li{
 @media(max-width: 900px){
   .projeto{
     margin-bottom: 20px;
+  }
+  .links{
+    margin-top: 15px;
   }
 }
 
