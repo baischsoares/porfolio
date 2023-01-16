@@ -1,7 +1,7 @@
 <template>
   <div>
    <h2 >Sobre mim </h2>
-   <p>Sou estudante de Análise e Desenvolvimento de Sitemas e tenho focado meus estudos no desenvolvimento Front-End, em especial no framework Vue.js</p>
+   <p>Sou estudante de Análise e Desenvolvimento de Sistemas e tenho focado meus estudos no desenvolvimento Front-End, em especial no framework Vue.js</p>
    <p>Atualmente sou estagiário de desenvolvimento na Positivo Tecnologia</p>
    <p>Meu objetivo profissional é me aprofundar no desenvolvimento front-end para oferecer as melhores soluções para os problemas levantados.</p>
    <h3>Tecnologias conhecidas</h3>
@@ -26,7 +26,7 @@ export default {
 <style scoped>
 p{
   margin-top: 10px;
-  width: 70%;
+  width: 80%;
 }
 h3{
   margin: 20px 0px;
