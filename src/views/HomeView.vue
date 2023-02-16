@@ -19,6 +19,20 @@ export default {
     return{
       projetos: [
         {
+          nome: "Simulador de Investimentos",
+          descricao: "Simulador de investimentos feito com Vue.js. ",
+          tecnologias:["HTML", "CSS", "JavaScript", "Vue.js", "API"],
+          url: "https://finance-simula.firebaseapp.com/",
+          git: "https://github.com/baischsoares/finance-simulator",
+        },
+        {
+          nome: "To do App",
+          descricao: "Aplicativo de tarefas feito com Vue.js ",
+          tecnologias:["HTML", "CSS", "JavaScript", "Vue.js"],
+          url: "https://to-do-app-34222.web.app/",
+          git: "https://github.com/baischsoares/to-do-app",
+        },
+        {
           nome: "Buscador GitHub",
           descricao: "Buscador de perfis e repositórios do GitHub, que utiliza api e desenvolvido com Vue.js ",
           tecnologias:["HTML", "CSS", "JavaScript", "Vue.js"],

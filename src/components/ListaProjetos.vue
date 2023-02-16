@@ -10,7 +10,7 @@
     </ul>
     <div>
       <div class="links"><span>URL: </span> <a :href="projeto.url">{{ projeto.url }}</a></div>
-      <div class="links" v-if="projeto.git"><span>Repositório: </span> <a :href="projeto.git">{{ projeto.git }}</a></div>
+      <div class="links" v-if="projeto.git"><span>Repo: </span> <a :href="projeto.git">{{ projeto.git }}</a></div>
     </div>
    
   </div>
