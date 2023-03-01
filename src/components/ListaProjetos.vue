@@ -1,12 +1,14 @@
 <template>
   <div class="projeto">
     <div>
+      <img :src="projeto.img" alt="">
+    </div>
+    <div>
       <h2>{{ projeto.nome }}</h2>
       <p>{{ projeto.descricao }}</p>
     </div>
-    
     <ul>
-      <li v-for="tecnologia in projeto.tecnologias">{{ tecnologia }}</li>
+      <li v-for="tecnologia in projeto.tecnologias" :key="tecnologia">{{ tecnologia }}</li>
     </ul>
     <div>
       <div class="links"><span>URL: </span> <a :href="projeto.url">{{ projeto.url }}</a></div>
